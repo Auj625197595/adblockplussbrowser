@@ -1,7 +1,7 @@
 buildscript {
     // buildscript block is evaluated at the very beginning. Properties defined in the ext block
     // don't exist at that time.
-    ext.kotlinVersion = '1.2.71'
+    ext.kotlinVersion = '1.3.10'
     repositories {
         google()
         jcenter()
