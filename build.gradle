@@ -1,13 +1,13 @@
 buildscript {
     // buildscript block is evaluated at the very beginning. Properties defined in the ext block
     // don't exist at that time.
-    ext.kotlinVersion = '1.2.31'
+    ext.kotlinVersion = '1.2.51'
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.2.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     }
 }
@@ -23,7 +23,7 @@ ext {
     minSdkVersion = 21
     targetSdkVersion = 27
     compileSdkVersion = 27
-    buildToolsVersion = '27.0.3'
+    buildToolsVersion = '28.0.3'
     androidSupportLibraryVersion = '27.1.0'
     sourceCompatibilityVersion = JavaVersion.VERSION_1_7
     targetCompatibilityVersion = JavaVersion.VERSION_1_7
