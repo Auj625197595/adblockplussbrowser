@@ -52,7 +52,6 @@ android {
 
         abp {
             dimension "product"
-            applicationId "org.adblockplus.adblockplussbrowser"
         }
 
         crystal {
