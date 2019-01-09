@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE resources [
-    <!ENTITY app_display_name "Crystal">
-]>
+    <!ENTITY app_display_name "Crystal"
+>]>
 
 <resources>
     <string name="app_name">&app_display_name; for Samsung Internet</string>
     <string name="sbrowser_dialog_message">Before you can use &app_display_name;, you must install Samsung Internet 4.0 or above.</string>
     <string name="setup_dialog_title">Enable &app_display_name; in Samsung Internet</string>
     <string name="setup_dialog_message_sbrowser_4">1. Open Samsung Internet.\n2. Tap <b>More</b> and select <b>Settings</b>.\n3. Tap <b>Advanced</b>.\n4. Tap <b>Block content</b>.\n5. Activate the <b>Block content</b> functionality.\n6. Select &app_display_name; for Samsung Internet.</string>
+    <string name="setup_dialog_message_sbrowser_5">1. Open Samsung Internet.\n2. Tap \u00A0<b>&#8942;</b>\u00A0 and select <b>Extensions</b>.\n3. Tap <b>Content blockers</b>.\n4. Select &app_display_name; for Samsung Internet.</string>
     <!-- TODO: check what the imprint_text string will be for Crystal -->
 </resources>
