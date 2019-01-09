@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+    <!ENTITY app_display_name "Crystal">
+    ]>
+
+<resources>
+    <string name="app_name">&app_display_name; para Samsung Internet</string>
+    <string name="sbrowser_dialog_message">Antes de poder usar o &app_display_name;, deve instalar Samsung Internet 4.0 ou superior.</string>
+    <string name="setup_dialog_title">Ativar &app_display_name; no Samsung Internet</string>
+    <string name="setup_dialog_message_sbrowser_4"><![CDATA[1. Abra o Samsung Internet. \n2. Toque em <b>Mais</b> e selecione <b>Definições</b>. \n3. Toque em <b>Avançado</b>. \n4. Toque em <b>Bloquear conteúdo</b>. \n5. Ative a funcionalidade <b>Bloquear conteúdo</b>. \n6. Selecione &app_display_name; para Samsung Internet.]]></string>
+    <!-- TODO: check what the imprint_text string will be for Crystal -->
+</resources>

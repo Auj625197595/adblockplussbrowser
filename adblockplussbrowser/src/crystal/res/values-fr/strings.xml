@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+    <!ENTITY app_display_name "Crystal">
+    ]>
+
+<resources>
+    <string name="app_name">&app_display_name; pour Samsung Internet</string>
+    <string name="sbrowser_dialog_message">Avant de pouvoir accéder à &app_display_name;, vous devez installer Samsung Internet 4.0 ou une version ultérieure.</string>
+    <string name="setup_dialog_title">Activer &app_display_name; dans Samsung Internet</string>
+    <string name="setup_dialog_message_sbrowser_4">1. Ouvrez Samsung Internet. \n2. Appuyez sur <b>Plus</b> et sélectionnez <b>Paramètres</b>. \n3. Appuyez sur <b>Paramètres avancés</b>. \n4. Appuyez sur <b>Blocage du contenu</b>. \n5. Activez la fonctionnalité de <b>Blocage de contenu</b>. \n6. Sélectionnez &app_display_name; pour Samsung Internet.</string>
+    <!-- TODO: check what the imprint_text string will be for Crystal -->
+</resources>
