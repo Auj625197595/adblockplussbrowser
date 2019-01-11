@@ -9,5 +9,6 @@
     <string name="sbrowser_dialog_message">Для использования &app_display_name; вы должны установить Интернет Samsung 4.0 или более позднюю версию.</string>
     <string name="setup_dialog_title">Включите &app_display_name; в Интернет Samsung</string>
     <string name="setup_dialog_message_sbrowser_4">1. Откройте Интернет Samsung. \n2. Нажмите на <b>«Еще»</b> и выберите <b>«Настройки»</b>. \n3. Нажмите на <b>«Дополнительно»</b>. \n4. Выберите <b>«Блокировать содержимое»</b>. \n5. Активируйте функцию <b>«Блокировать содержимое»</b>. \n6. Выберите &app_display_name; для Интернет Samsung.</string>
+    <string name="setup_dialog_message_sbrowser_5">1. Откройте Интернет Samsung. \n2. Нажмите на &nbsp; <b>&#8942;</b> &nbsp; и выберите <b>«Расширения»</b>. \n3. Нажмите на <b>«Блокировщики содержимого»</b>. \n4. Выберите &app_display_name; для Интернет Samsung.</string>
     <!-- TODO: check what the imprint_text string will be for Crystal -->
 </resources>

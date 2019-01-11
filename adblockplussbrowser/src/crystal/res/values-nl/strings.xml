@@ -9,5 +9,6 @@
     <string name="sbrowser_dialog_message">Voordat u &app_display_name; kunt gebruiken, moet u Samsung Internet 4.0 of hoger installeren.</string>
     <string name="setup_dialog_title">Schakel &app_display_name; in in Samsung Internet</string>
     <string name="setup_dialog_message_sbrowser_4">1. Open Samsung Internet. \n2. Tik op <b>Meer</b> en selecteer <b>Instellingen</b>. \n3. Tik op <b>Geavanceerd</b>. \n4. Tik op <b>Inhoud blokkeren</b>. \n5. Activeer de functionaliteit <b>Inhoud blokkeren</b>. \n6. Selecteer &app_display_name; voor Samsung Internet.</string>
+    <string name="setup_dialog_message_sbrowser_5">1. Open Samsung Internet. \n2. Tik op &nbsp; <b>&#8942;</b> &nbsp; en selecteer <b>Extensies</b>. \n3. Tik op <b>Inhoudblokkeringen</b>. \n4. Selecteer &app_display_name; voor Samsung Internet.</string>
     <!-- TODO: check what the imprint_text string will be for Crystal -->
 </resources>

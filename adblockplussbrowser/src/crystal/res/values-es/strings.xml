@@ -9,5 +9,6 @@
     <string name="sbrowser_dialog_message">Para poder utilizar &app_display_name;, debes instalar Internet de Samsung 4.0 o superior.</string>
     <string name="setup_dialog_title">Activar &app_display_name; en Internet de Samsung</string>
     <string name="setup_dialog_message_sbrowser_4">1. Abre Internet de Samsung. \n2. Toca <b>Más</b> y selecciona <b>Ajustes</b>. \n3. Toca <b>Avanzado</b>. \n4. Toca <b>Bloquear contenido</b>. \n5. Activa la funcionalidad <b>Bloquear contenido</b>. \n6. Selecciona &app_display_name; para Internet de Samsung.</string>
+    <string name="setup_dialog_message_sbrowser_5">1. Abre Internet de Samsung. \n2. Toca &nbsp; <b>&#8942;</b> &nbsp; y selecciona <b>Extensiones</b>. \n3. Toca <b>Bloqueadores de contenido</b>. \n4. Selecciona &app_display_name; para Internet de Samsung.</string>
     <!-- TODO: check what the imprint_text string will be for Crystal -->
 </resources>
