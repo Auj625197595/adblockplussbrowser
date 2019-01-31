@@ -28,8 +28,6 @@
     <string name="setup_dialog_button">Konfigurowanie przeglądarki Samsung Internet</string>
     <string name="subscription_disable_tracking">Wyłącz śledzenie</string>
     <string name="subscription_disable_malware">Wyłącz złośliwe domeny</string>
-    <string name="subscription_disable_anti_adblock">Wyłącz komunikaty dotyczące blokowania reklam</string>
-    <string name="subscription_disable_social_media">Wyłącz przyciski mediów społecznościowych</string>
     <string name="download_settings_wifi">Tylko Wi-Fi</string>
     <string name="download_settings_always">Zawsze</string>
     <string name="whitelisted_websites">Strony internetowe na białej liście</string>
