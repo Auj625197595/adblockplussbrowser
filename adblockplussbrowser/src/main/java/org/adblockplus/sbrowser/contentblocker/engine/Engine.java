@@ -372,7 +372,8 @@ public final class Engine
     }
   }
 
-  private void migrateDefaultSubscriptions() throws IOException {
+  private void migrateDefaultSubscriptions() throws IOException
+  {
       try (final InputStream subscriptionsXml = context.getResources()
               .openRawResource(R.raw.subscriptions))
       {
