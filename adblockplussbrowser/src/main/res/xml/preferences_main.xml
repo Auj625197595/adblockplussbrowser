@@ -65,8 +65,7 @@
         </PreferenceScreen>
         <Preference android:title="@string/app_name"
             android:summary="@string/app_version"
-            android:enabled="false"
-            />
+            android:enabled="false"/>
     </PreferenceScreen>
 
 </PreferenceScreen>
