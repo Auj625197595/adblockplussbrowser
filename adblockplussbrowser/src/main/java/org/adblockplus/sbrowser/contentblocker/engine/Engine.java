@@ -361,8 +361,7 @@ public final class Engine
       {
         if (previousVersionCode > 0)
         {
-          // We can do possible migration stuff here
-          // Currently we only persist the new version code
+          migrateDefaultSubscriptions();
         }
         SharedPrefsUtils.putInt(context, R.string.key_previous_version_code, versionCode);
       }
@@ -373,16 +372,30 @@ public final class Engine
     }
   }
 
+  private void migrateDefaultSubscriptions() throws IOException
+  {
+      try (final InputStream subscriptionsXml = context.getResources()
+              .openRawResource(R.raw.subscriptions))
+      {
+          defaultSubscriptions = DefaultSubscriptions.fromStream(subscriptionsXml);
+      }
+      final List<Subscription> latestSubscriptionsList = createSubscriptions(defaultSubscriptions);
+
+      for (final Subscription sub : latestSubscriptionsList)
+      {
+          if (!subscriptions.hasSubscription(sub.getId()))
+          {
+              subscriptions.add(sub);
+              subscriptions.persistSubscription(sub);
+              Log.d(TAG, "Added subscription: " + sub.getURL());
+          }
+      }
+  }
+
   static Engine create(final Context context) throws IOException
   {
     final Engine engine = new Engine(context);
-
-    // Migration data from previous version (if needed)
-    engine.migrateFromPreviousVersion(context);
-    Log.d(TAG, "Migration done");
-
     engine.appInfo = AppInfo.create(context);
-
     Log.d(TAG, "Creating engine, appInfo=" + engine.appInfo.toString());
 
     try (final InputStream subscriptionsXml = context.getResources()
@@ -390,8 +403,8 @@ public final class Engine
     {
       engine.defaultSubscriptions = DefaultSubscriptions.fromStream(subscriptionsXml);
     }
-
     Log.d(TAG, "Finished reading 'subscriptions.xml'");
+
     engine.subscriptions = Subscriptions.initialize(engine, getSubscriptionsDir(context),
         getFilterCacheDir(context));
 
@@ -414,7 +427,7 @@ public final class Engine
             // Use bundled EasyList as default and update it with locale specific list later
             // see: https://issues.adblockplus.org/ticket/5237
             .create(SubscriptionUtils.chooseDefaultSubscriptionUrl(
-                engine.defaultSubscriptions.getAdsSubscriptions()))
+                engine.defaultSubscriptions.getSubscriptions()))
             .parseLines(readLines(easylistTxt)));
         easylist.putMeta(Subscription.KEY_UPDATE_TIMESTAMP, "0");
         easylist.setEnabled(true);
@@ -439,7 +452,7 @@ public final class Engine
       notification.setEnabled(true);
 
       int additional = 0;
-      for (final Subscription sub : engine.defaultSubscriptions.createSubscriptions())
+      for (final Subscription sub : createSubscriptions(engine.defaultSubscriptions))
       {
         if (!engine.subscriptions.hasSubscription(sub.getId()))
         {
@@ -451,6 +464,10 @@ public final class Engine
       Log.d(TAG, "Added " + additional + " additional default/built-in subscriptions");
       engine.subscriptions.persistSubscriptions();
     }
+
+    // Migration data from previous version (if needed)
+    engine.migrateFromPreviousVersion(context);
+    Log.d(TAG, "Migration done");
 
     engine.handlerThread = new Thread(new EventHandler(engine));
     engine.handlerThread.setDaemon(true);
@@ -578,6 +595,22 @@ public final class Engine
   private static File getSubscriptionsDir(Context context)
   {
     return new File(context.getFilesDir(), "subscriptions");
+  }
+
+  private static List<Subscription> createSubscriptions(
+          final DefaultSubscriptions defaultSubscriptions) throws IOException
+  {
+    final ArrayList<Subscription> subs = new ArrayList<>();
+    for (final DefaultSubscriptionInfo info : defaultSubscriptions.getSubscriptions())
+    {
+      if (!info.getUrl().isEmpty())
+      {
+        final Subscription sub = Subscription.create(info.getUrl());
+        sub.putMeta(Subscription.KEY_TITLE, info.getTitle());
+        subs.add(sub);
+      }
+    }
+    return subs;
   }
 
   URL createDownloadURL(final Subscription sub) throws IOException

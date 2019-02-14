@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+    <!ENTITY app_display_name "Adblock Plus">
+]>
+
+<resources>
+
+    <string name="app_name">&app_display_name; para Internet de Samsung</string>
+    <string name="sbrowser_dialog_message">Para poder utilizar &app_display_name;, debes instalar Internet de Samsung 4.0 o superior.</string>
+    <string name="setup_dialog_title">Activar &app_display_name; en Internet de Samsung</string>
+    <string name="setup_dialog_message_sbrowser_4">1. Abre Internet de Samsung. \n2. Toca <b>Más</b> y selecciona <b>Ajustes</b>. \n3. Toca <b>Avanzado</b>. \n4. Toca <b>Bloquear contenido</b>. \n5. Activa la funcionalidad <b>Bloquear contenido</b>. \n6. Selecciona &app_display_name; para Internet de Samsung.</string>
+    <string name="setup_dialog_message_sbrowser_5">1. Abre Internet de Samsung. \n2. Toca \u00A0<b>&#8942;</b>\u00A0 y selecciona <b>Extensiones</b>. \n3. Toca <b>Bloqueadores de contenido</b>. \n4. Selecciona &app_display_name; para Internet de Samsung.</string>
+
+    <string name="automatic_updates">Configurar actualizaciones automáticas</string>
+    <string name="manage_subscriptions">Configurar las listas de filtros</string>
+    <string name="manage_subscriptions_summary">Cambiar los idiomas de bloqueo de anuncios</string>
+    <string name="more_blocking">Más opciones de bloqueo</string>
+    <string name="more_blocking_category">Otras listas de filtros</string>
+    <string name="more_blocking_summary">Desactivar seguimiento y sitios de malware</string>
+    <string name="enabled_subscriptions">Activado para sitios web en &#8230;</string>
+    <string name="available_subscriptions">Otros idiomas</string>
+    <string name="initialization_title">Inicialización</string>
+    <string name="initialization_message">Inicializando&#8230;</string>
+    <string name="enable_acceptable_ads">Permitir alguna publicidad no molesta</string>
+    <string name="last_update">Actualizado:</string>
+    <string name="last_update_never">nunca</string>
+    <string name="acceptable_ads_category">Anuncios Aceptables</string>
+    <string name="aa_dialog_title">Tú tienes el control</string>
+    <string name="aa_dialog_message"><![CDATA[La publicidad molesta siempre se bloqueará, mientras que la no molesta se permitirá de forma predeterminada. Esta configuración se puede cambiar en cualquier momento a través de la opción <b>Permitir alguna publicidad no molesta</b>.]]></string>
+    <string name="aa_dialog_button">Entendido</string>
+    <string name="sbrowser_dialog_title">Necesitas Internet de Samsung</string>
+    <string name="sbrowser_dialog_button">Instalar ahora</string>
+    <string name="setup_dialog_button">Configurar Internet de Samsung</string>
+    <string name="subscription_disable_tracking">Desactivar seguimiento</string>
+    <string name="subscription_disable_social_media">Desactivar botones de redes sociales</string>
+    <string name="download_settings_wifi">Solo con conexión Wi-Fi</string>
+    <string name="download_settings_always">Siempre</string>
+    <string name="whitelisted_websites">Páginas web de la lista blanca</string>
+    <string name="whitelisted_websites_summary">Deshabilitar el bloqueo de anuncios para las páginas web especificadas</string>
+    <string name="whitelisted_websites_add_button">Añade una página web a la lista blanca</string>
+    <string name="whitelist_website_dialog_title">Incluir página web en lista blanca</string>
+    <string name="whitelist_website_dialog_message">Introduce la URL de la página web</string>
+    <string name="whitelist_website_dialog_hint">www.someURL.com</string>
+    <string name="whitelist_website_invalid_url_error">URL no válida</string>
+    <string name="whitelist_remove_dialog_title">Elimina las páginas web de la lista blanca</string>
+    <string name="whitelist_remove_dialog_message">¿Seguro que quieres eliminar &lt;b>%1s&lt;/b>?</string>
+    <string name="add_subscription_dialog_message">Agregando suscripción&#8230;</string>
+    <string name="remove_subscription_dialog_message">Quitando suscripción&#8230;</string>
+    <string name="add_another_list">Agregar otra lista de filtros</string>
+    <string name="about">Acerca de</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="terms_of_use">Términos de uso</string>
+    <string name="imprint">Pie de imprenta</string>
+    <string name="imprint_text"><![CDATA[<p><b><font color=\"#ffffff\">eyeo GmbH</font></b> <br/>Lichtstraße 25<br/>50825 Cologne<br/>Germany</p> <p>Asistencia: <br/><a href=\"https://adblockplus.org/forum/\">Foro de Adblock Plus</a> <br/>Correo electrónico:<br/><a href=\"mailto:info@eyeo.com\">info@eyeo.com</a> <br/>Teléfono:<br/>+49 (0)221 / 65028 598 <br/>Fax:<br/>+49 (0)221 / 65028 599</p> <p>Número de identificación a efectos de IVA:<br/>DE279292414 <br/>Tribunal de primera instancia de Colonia: <br/>HRB 73508</p> <p><b><font color=\"#ffffff\">Directores ejecutivos</font></b>: <br/>Till Faida <br/>Felix Dahlke <br/>Steffen Kiedel</p>]]></string>
+    <string name="update_subscriptions">Actualizar suscripciones</string>
+    <string name="update_subscriptions_summary">Actualiza todas las suscripciones activas</string>
+    <string name="updating_subscriptions">Actualizando suscripciones en segundo plano…</string>
+    <string name="metered_connection_warning">Estás utilizando tu plan de datos. ¿Seguro que deseas actualizar? Esto puede tardar unos minutos.</string>
+    <string name="check_your_connection">Parece que no tienes conexión. Comprueba tu conexión a internet.</string>
+
+</resources>

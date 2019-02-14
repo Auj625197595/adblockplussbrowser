@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+    <!ENTITY app_display_name "Adblock Plus">
+]>
+
+<resources>
+
+    <string name="app_name">&app_display_name; για Samsung Internet</string>
+    <string name="sbrowser_dialog_message">Για να μπορέσετε να χρησιμοποιήσετε το &app_display_name;, πρέπει να εγκαταστήσετε το Samsung Internet 4.0 ή μεταγενέστερη έκδοση.</string>
+    <string name="setup_dialog_title">Ενεργοποίηση του &app_display_name; στο Samsung Internet</string>
+    <string name="setup_dialog_message_sbrowser_4">1. Ανοίξτε το Samsung Internet.\n2. Επιλέξτε <b>Περισ.</b> και <b>Ρυθμίσεις</b>.\n3. Επιλέξτε <b>Για Προχωρ</b>.\n4. Επιλέξτε <b>Αποκλεισμός περιεχομένου</b>.\n5. Ενεργοποιήστε τη λειτουργική δυνατότητα <b>Αποκλεισμός περιεχομένου</b>.\n6. Επιλέξτε &app_display_name; για Samsung Internet.</string>
+    <string name="setup_dialog_message_sbrowser_5">1. Ανοίξτε το Samsung Internet. \n2. Επιλέξτε \u00A0<b>&#8942;</b>\u00A0 και <b>Eπεκτάσεις</b>. \n3. Επιλέξτε <b>Εργαλ. αποκλεισμού περιεχομένου</b>. \n4. Επιλέξτε &app_display_name; για Samsung Internet.</string>
+
+    <string name="automatic_updates">Ρύθμιση παραμέτρων αυτόματων ενημερώσεων</string>
+    <string name="manage_subscriptions">Ρύθμιση παραμέτρων για τις λίστες των φίλτρων σας</string>
+    <string name="manage_subscriptions_summary">Αλλαγή γλωσσών για το λογισμικό φραγής διαφημίσεων </string>
+    <string name="more_blocking">Περισσότερες επιλογές φραγής</string>
+    <string name="more_blocking_category">Άλλες λίστες φίλτρων</string>
+    <string name="more_blocking_summary">Απενεργοποίηση παρακολούθησης και ιστοσελίδων λογισμικών κακόβουλης λειτουργίας</string>
+    <string name="enabled_subscriptions">Ενεργό για ιστότοπους στα &#8230;</string>
+    <string name="available_subscriptions">Άλλες γλώσσες</string>
+    <string name="initialization_title">Προετοιμασία</string>
+    <string name="initialization_message">Προετοιμασία&#8230;</string>
+    <string name="enable_acceptable_ads">Να επιτρέπονται μερικές μη παρεμβατικές διαφημίσεις</string>
+    <string name="last_update">Ενημερώθηκε:</string>
+    <string name="last_update_never">ποτέ</string>
+    <string name="acceptable_ads_category">Αποδεκτές Διαφημίσεις</string>
+    <string name="aa_dialog_title">Εσείς έχετε τον έλεγχο</string>
+    <string name="aa_dialog_message"><![CDATA[Οι ενοχλητικές διαφημίσεις φράσσονται πάντα, ενώ οι μη παρεμβατικές διαφημίσεις εμφανίζονται εκ προεπιλογής. Μπορείτε να αλλάξετε αυτή τη ρύθμιση οποιαδήποτε στιγμή με την επιλογή <b>Να επιτρέπονται μερικές μη παρεμβατικές διαφημίσεις</b>.]]></string>
+    <string name="aa_dialog_button">Κατάλαβα</string>
+    <string name="sbrowser_dialog_title">Χρειάζεστε το Samsung Internet</string>
+    <string name="sbrowser_dialog_button">Εγκατάσταση τώρα</string>
+    <string name="setup_dialog_button">Διαμορφώστε το Samsung Internet</string>
+    <string name="subscription_disable_tracking">Απενεργοποίηση παρακολούθησης</string>
+    <string name="subscription_disable_social_media">Απενεργοποίηση των κουμπιών για τις πλατφόρμες κοινωνικής δικτύωσης</string>
+    <string name="download_settings_wifi">Μόνο σε ασύρματο δίκτυο</string>
+    <string name="download_settings_always">Πάντα</string>
+    <string name="whitelisted_websites">Λίστα επιτρεπόμενων ιστοσελίδων</string>
+    <string name="whitelisted_websites_summary">Απενεργοποιήστε τον φραγμό διαφημίσεων για τις συγκεκριμένες ιστοσελίδες</string>
+    <string name="whitelisted_websites_add_button">Προσθέστε μια ιστοσελίδα στη λίστα επιτρεπόμενων</string>
+    <string name="whitelist_website_dialog_title">Προσθέστε την ιστοσελίδα στη λίστα επιτρεπόμενων</string>
+    <string name="whitelist_website_dialog_message">Εισάγετε τη διεύθυνση (URL) της ιστοσελίδας</string>
+    <string name="whitelist_website_dialog_hint">www.someURL.com</string>
+    <string name="whitelist_website_invalid_url_error">Άκυρη διεύθυνση (URL)</string>
+    <string name="whitelist_remove_dialog_title">Αφαιρέστε την ιστοσελίδα από τη λίστα επιτρεπόμενων</string>
+    <string name="whitelist_remove_dialog_message">Είστε σίγουροι ότι θέλετε να την αφαιρέσετε &lt;b>%1s&lt;/b>?</string>
+    <string name="add_subscription_dialog_message">Προσθήκη εγγραφής&#8230;</string>
+    <string name="remove_subscription_dialog_message">Αφαίρεση εγγραφής&#8230;</string>
+    <string name="add_another_list">Προσθήκη επιπλέον λίστας φίλτρων</string>
+    <string name="about">Σχετικά με</string>
+    <string name="privacy_policy">Πολιτική απορρήτου</string>
+    <string name="terms_of_use">Όροι χρήσης</string>
+    <string name="imprint">Imprint</string>
+    <string name="imprint_text"><![CDATA[<p><b><font color=\"#ffffff\">eyeo GmbH</font></b> <br/>Lichtstraße 25<br/>50825 Cologne<br/>Germany</p> <p>Υποστήριξη: <br/><a href=\"https://adblockplus.org/forum/\">Φόρουμ Adblock Plus</a> <br/>Email:<br/><a href=\"mailto:info@eyeo.com\">info@eyeo.com</a> <br/>Τηλέφωνο:<br/>+49 (0)221 / 65028 598 <br/>Φαξ:<br/>+49 (0)221 / 65028 599</p> <p>Αριθμός ΦΠΑ:<br/>DE279292414 <br/>Πρωτοδικείο Κολωνίας: <br/>HRB 73508</p> <p><b><font color=\"#ffffff\">Διευθύνοντες σύμβουλοι</font></b>: <br/>Till Faida <br/>Felix Dahlke <br/>Steffen Kiedel</p>]]></string>
+    <string name="update_subscriptions">Ενημέρωση συνδρομών</string>
+    <string name="update_subscriptions_summary">Ενημέρωση όλων των ενεργών συνδρομών</string>
+    <string name="updating_subscriptions">Ενημέρωση συνδρομών στο παρασκήνιο…</string>
+    <string name="metered_connection_warning">Χρησιμοποιείτε το πρόγραμμα δεδομένων του τηλεφώνου σας. Σίγουρα θέλετε να ενημερώσετε; Μπορεί να πάρει κάποιο χρόνο.</string>
+    <string name="check_your_connection">Φαίνεται ότι είστε εκτός σύνδεσης. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο.</string>
+
+</resources>

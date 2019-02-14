@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:layout="@layout/multiline_preference"
+        android:summary="@string/manage_subscriptions_summary"
+        android:title="@string/manage_subscriptions">
+
+        <org.adblockplus.sbrowser.contentblocker.ListedSubscriptionsPreferenceCategory
+            android:title="@string/enabled_subscriptions"/>
+
+        <org.adblockplus.sbrowser.contentblocker.ListedSubscriptionsPreferenceCategory
+            android:title="@string/available_subscriptions"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:summary="@string/more_blocking_summary"
+        android:title="@string/more_blocking">
+
+        <org.adblockplus.sbrowser.contentblocker.MoreBlockingPreferenceCategory
+            android:title="@string/more_blocking_category"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:summary="@string/whitelisted_websites_summary"
+        android:title="@string/whitelisted_websites">
+
+        <org.adblockplus.sbrowser.contentblocker.WhitelistedWebsitesPreferenceCategory/>
+    </PreferenceScreen>
+
+    <org.adblockplus.sbrowser.contentblocker.preferences.MultilineListPreference
+        android:defaultValue="@string/download_settings_value_wifi"
+        android:entries="@array/download_settings"
+        android:entryValues="@array/download_settings_values"
+        android:key="@string/key_automatic_updates"
+        android:title="@string/automatic_updates"/>
+
+    <Preference android:title="@string/update_subscriptions"
+        android:key="@string/key_force_update_subscriptions"
+        android:summary="@string/update_subscriptions_summary"/>
+
+    <PreferenceCategory
+        android:title="@string/acceptable_ads_category">
+
+        <org.adblockplus.sbrowser.contentblocker.preferences.MultilineCheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_acceptable_ads"
+            android:singleLine="false"
+            android:title="@string/enable_acceptable_ads"/>
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:key="@string/key_about"
+        android:title="@string/about">
+        <Preference android:title="@string/privacy_policy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_privacy_policy"/>
+        </Preference>
+        <Preference android:title="@string/terms_of_use">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_terms_of_use"/>
+        </Preference>
+        <PreferenceScreen android:title="@string/imprint" >
+            <org.adblockplus.sbrowser.contentblocker.preferences.ImprintPreference/>
+        </PreferenceScreen>
+        <Preference android:title="@string/app_name"
+            android:summary="@string/app_version"
+            android:enabled="false"/>
+    </PreferenceScreen>
+
+</PreferenceScreen>

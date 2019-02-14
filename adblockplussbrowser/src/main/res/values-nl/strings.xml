@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+    <!ENTITY app_display_name "Adblock Plus">
+]>
+
+<resources>
+
+    <string name="app_name">&app_display_name; voor Samsung Internet</string>
+    <string name="sbrowser_dialog_message">Voordat u &app_display_name; kunt gebruiken, moet u Samsung Internet 4.0 of hoger installeren.</string>
+    <string name="setup_dialog_title">Schakel &app_display_name; in in Samsung Internet</string>
+    <string name="setup_dialog_message_sbrowser_4">1. Open Samsung Internet. \n2. Tik op <b>Meer</b> en selecteer <b>Instellingen</b>. \n3. Tik op <b>Geavanceerd</b>. \n4. Tik op <b>Inhoud blokkeren</b>. \n5. Activeer de functionaliteit <b>Inhoud blokkeren</b>. \n6. Selecteer &app_display_name; voor Samsung Internet.</string>
+    <string name="setup_dialog_message_sbrowser_5">1. Open Samsung Internet. \n2. Tik op \u00A0<b>&#8942;</b>\u00A0 en selecteer <b>Extensies</b>. \n3. Tik op <b>Inhoudblokkeringen</b>. \n4. Selecteer &app_display_name; voor Samsung Internet.</string>
+
+    <string name="automatic_updates">Automatische updates configureren</string>
+    <string name="manage_subscriptions">Filterlijsten configureren</string>
+    <string name="manage_subscriptions_summary">Talen voor het blokkeren van advertenties wijzigen</string>
+    <string name="more_blocking">Meer blokkeeropties</string>
+    <string name="more_blocking_category">Andere filterlijsten</string>
+    <string name="more_blocking_summary">Tracering en malwaresites uitschakelen</string>
+    <string name="enabled_subscriptions">Actief voor websites in het &#8230;</string>
+    <string name="available_subscriptions">Andere talen</string>
+    <string name="initialization_title">Initialisatie</string>
+    <string name="initialization_message">Initialiseren&#8230;</string>
+    <string name="enable_acceptable_ads">Enkele niet-opdringerige advertenties toestaan</string>
+    <string name="last_update">Bijgewerkt op:</string>
+    <string name="last_update_never">nooit</string>
+    <string name="acceptable_ads_category">Acceptabele advertenties</string>
+    <string name="aa_dialog_title">U hebt de touwtjes in handen</string>
+    <string name="aa_dialog_message"><![CDATA[Vervelende advertenties worden altijd geblokkeerd, terwijl niet-opdringerige advertenties standaard worden weergegeven. U kunt deze instelling op elk gewenst moment wijzigen door op de optie <b>Enkele niet-opdringerige advertenties toestaan</b> tikken.]]></string>
+    <string name="aa_dialog_button">Duidelijk</string>
+    <string name="sbrowser_dialog_title">U hebt Samsung Internet nodig</string>
+    <string name="sbrowser_dialog_button">Nu installeren</string>
+    <string name="setup_dialog_button">Configureer Samsung Internet</string>
+    <string name="subscription_disable_tracking">Tracering uitschakelen</string>
+    <string name="subscription_disable_social_media">Knoppen sociale media uitschakelen</string>
+    <string name="download_settings_wifi">Alleen bij wifi</string>
+    <string name="download_settings_always">Altijd</string>
+    <string name="whitelisted_websites">Websites op witte lijst</string>
+    <string name="whitelisted_websites_summary">Advertentieblokkering uitschakelen voor gespecificeerde websites</string>
+    <string name="whitelisted_websites_add_button">Een website toevoegen aan de witte lijst</string>
+    <string name="whitelist_website_dialog_title">Website op witte lijst</string>
+    <string name="whitelist_website_dialog_message">URL van website invoeren</string>
+    <string name="whitelist_website_dialog_hint">www.someURL.com</string>
+    <string name="whitelist_website_invalid_url_error">Ongeldige URL</string>
+    <string name="whitelist_remove_dialog_title">Website op witte lijst verwijderen</string>
+    <string name="whitelist_remove_dialog_message">Weet u zeker dat u &lt;b>%1s&lt;/b> wilt verwijderen?</string>
+    <string name="add_subscription_dialog_message">Abonnement toevoegen&#8230;</string>
+    <string name="remove_subscription_dialog_message">Abonnement verwijderen&#8230;</string>
+    <string name="add_another_list">Andere filterlijst toevoegen</string>
+    <string name="about">Over</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="terms_of_use">Gebruiksvoorwaarden</string>
+    <string name="imprint">Impressum</string>
+    <string name="imprint_text"><![CDATA[<p><b><font color=\"#ffffff\">eyeo GmbH</font></b> <br/>Lichtstraße 25<br/>50825 Cologne <br/>Germany</p> <p>Support: <br/><a href=\"https://adblockplus.org/forum/\">Adblock Plus Forum</a> <br/>E-mail:<br/><a href=\"mailto:info@eyeo.com\">info@eyeo.com</a> <br/>Telefoon:<br/>+49 (0)221 / 65028 598 <br/>Fax:<br/>+49 (0)221 / 65028 599</p> <p>BTW-NUMMER:<br/>DE279292414 <br/>Rechtbank In Keulen: <br/>HRB 73508</p> <p><b><font color=\"#ffffff\">Directie</font></b>: <br/>Till Faida <br/>Felix Dahlke <br/>Steffen Kiedel</p>]]></string>
+    <string name="update_subscriptions">Abonnementen bijwerken</string>
+    <string name="update_subscriptions_summary">Alle actieve abonnementen bijwerken</string>
+    <string name="updating_subscriptions">De abonnementen worden op de achtergrond bijgewerkt…</string>
+    <string name="metered_connection_warning">U gebruikt het data-abonnement van uw telefoon. Weet u zeker dat u wilt bijwerken? Dit kan even duren.</string>
+    <string name="check_your_connection">Het lijkt erop dat u offline bent. Controleer uw internetverbinding.</string>
+
+</resources>

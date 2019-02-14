@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+    <!ENTITY app_display_name "Adblock Plus">
+]>
+
+<resources>
+
+    <string name="app_name">&app_display_name; для Интернет Samsung</string>
+    <string name="sbrowser_dialog_message">Для использования &app_display_name; вы должны установить Интернет Samsung 4.0 или более позднюю версию.</string>
+    <string name="setup_dialog_title">Включите &app_display_name; в Интернет Samsung</string>
+    <string name="setup_dialog_message_sbrowser_4">1. Откройте Интернет Samsung. \n2. Нажмите на <b>«Еще»</b> и выберите <b>«Настройки»</b>. \n3. Нажмите на <b>«Дополнительно»</b>. \n4. Выберите <b>«Блокировать содержимое»</b>. \n5. Активируйте функцию <b>«Блокировать содержимое»</b>. \n6. Выберите &app_display_name; для Интернет Samsung.</string>
+    <string name="setup_dialog_message_sbrowser_5">1. Откройте Интернет Samsung. \n2. Нажмите на \u00A0<b>&#8942;</b>\u00A0 и выберите <b>«Расширения»</b>. \n3. Нажмите на <b>«Блокировщики содержимого»</b>. \n4. Выберите &app_display_name; для Интернет Samsung.</string>
+
+    <string name="automatic_updates">Настроить автоматические обновления</string>
+    <string name="manage_subscriptions">Настроить свои списки фильтров</string>
+    <string name="manage_subscriptions_summary">Изменить языки блокировки рекламы</string>
+    <string name="more_blocking">Дополнительные настройки блокировки</string>
+    <string name="more_blocking_category">Другие списки фильтров</string>
+    <string name="more_blocking_summary">Блокировать отслеживающие и вредоносные сайты</string>
+    <string name="enabled_subscriptions">Активно для сайтов на &#8230;</string>
+    <string name="available_subscriptions">Другие языки</string>
+    <string name="initialization_title">Инициализация</string>
+    <string name="initialization_message">Инициализация&#8230;</string>
+    <string name="enable_acceptable_ads">Разрешить некоторую неинтрузивную рекламу</string>
+    <string name="last_update">Обновлено:</string>
+    <string name="last_update_never">никогда</string>
+    <string name="acceptable_ads_category">Допустимая реклама</string>
+    <string name="aa_dialog_title">У вас полный контроль</string>
+    <string name="aa_dialog_message"><![CDATA[Раздражающая реклама всегда заблокирована, в то время как неинтрузивная реклама по умолчанию отображается. Вы можете изменить эту настройку в любое время, используя функцию <b>«Разрешить некоторую неинтрузивную рекламу»</b>]]>.</string>
+    <string name="aa_dialog_button">Есть</string>
+    <string name="sbrowser_dialog_title">Вам нужен Интернет Samsung</string>
+    <string name="sbrowser_dialog_button">Установить сейчас</string>
+    <string name="setup_dialog_button">Настройте Интернет Samsung</string>
+    <string name="subscription_disable_tracking">Блокировать отслеживание</string>
+    <string name="subscription_disable_social_media">Блокировать кнопки социальных сетей</string>
+    <string name="download_settings_wifi">Только на Wi-Fi</string>
+    <string name="download_settings_always">Всегда</string>
+    <string name="whitelisted_websites">Белый список сайтов</string>
+    <string name="whitelisted_websites_summary">Отключить блокировку рекламы для выбранных сайтов</string>
+    <string name="whitelisted_websites_add_button">Добавить сайт в белый список</string>
+    <string name="whitelist_website_dialog_title">Добавить сайт в белый список</string>
+    <string name="whitelist_website_dialog_message">Введите URL сайта</string>
+    <string name="whitelist_website_dialog_hint">www.someURL.com</string>
+    <string name="whitelist_website_invalid_url_error">Неверный URL</string>
+    <string name="whitelist_remove_dialog_title">Удалить сайт из белого списка</string>
+    <string name="whitelist_remove_dialog_message">Вы уверены, что хотите удалить &lt;b>%1s&lt;/b>?</string>
+    <string name="add_subscription_dialog_message">Добавление подписки&#8230;</string>
+    <string name="remove_subscription_dialog_message">Удаление подписки&#8230;</string>
+    <string name="add_another_list">Добавить другой список фильтров</string>
+    <string name="about">О нас</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="terms_of_use">Условия использования</string>
+    <string name="imprint">Imprint</string>
+    <string name="imprint_text"><![CDATA[<p><b><font color=\"#ffffff\">eyeo GmbH</font></b> <br/>Lichtstraße 25<br/>50825 Cologne<br/>Germany</p> <p>Поддержка: <br/><a href=\"https://adblockplus.org/forum/\">Adblock Plus Forum</a> <br/>Эл. почта:<br/><a href=\"mailto:info@eyeo.com\">info@eyeo.com</a> <br/>Телефон:<br/>+49 (0)221 / 65028 598 <br/>Факс:<br/>+49 (0)221 / 65028 599</p> <p>НДС №:<br/>DE279292414 <br/>Федеральный суд Кельна: <br/>HRB 73508</p> <p><b><font color=\"#ffffff\">Директора</font></b>: <br/>Till Faida <br/>Felix Dahlke <br/>Steffen Kiedel</p>]]></string>
+    <string name="update_subscriptions">Обновить подписки</string>
+    <string name="update_subscriptions_summary">Обновить все активные подписки</string>
+    <string name="updating_subscriptions">Обновление подписок в фоновом режиме…</string>
+    <string name="metered_connection_warning">Вы используете трафик своего телефона. Вы уверены, что хотите выполнить обновление? Это может занять некоторое время.</string>
+    <string name="check_your_connection">Похоже, вы не в сети. Проверьте свое соединение с Интернетом.</string>
+
+</resources>

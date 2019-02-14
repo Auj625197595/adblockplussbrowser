@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply from: 'translations.gradle'
+
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -15,19 +17,12 @@ android {
         applicationId "org.adblockplus.adblockplussbrowser"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 16
-        versionName '1.1.6'
+        versionCode 17
+        versionName '1.2.0'
         buildConfigField "String", "FLAVOR_REGION_WORLD", '"world"'
         buildConfigField "String", "FLAVOR_REGION_CHINA", '"china"'
     }
-
-    sourceSets {
-        main {
-            manifest.srcFile 'AndroidManifest.xml'
-            res.srcDirs = ['res']
-        }
-    }
-
+    
     buildTypes {
         release {
             minifyEnabled true
@@ -58,6 +53,11 @@ android {
             dimension "product"
             applicationId "co.crystalapp.crystal"
         }
+    }
+
+    applicationVariants.all { variant ->
+        variant.resValue "string", "app_version",
+                "${defaultConfig.versionName} - ${variant.productFlavors[0].name}"
     }
 
     testOptions {
@@ -91,10 +91,10 @@ def updateBundledLists(taskName) {
 }
 
 dependencies {
-    testImplementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlinVersion"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
     testImplementation 'junit:junit:4.12'
-    testImplementation 'org.mockito:mockito-core:2.16.0'
-    testImplementation 'org.robolectric:robolectric:3.8'
+    testImplementation 'org.mockito:mockito-core:2.18.0'
+    testImplementation 'org.robolectric:robolectric:4.0-beta-1'
     implementation "com.android.support:support-v4:$rootProject.ext.androidSupportLibraryVersion"
     implementation (group: 'commons-validator', name: 'commons-validator', version: '1.6') {
         exclude group: 'commons-logging', module: 'commons-logging'
