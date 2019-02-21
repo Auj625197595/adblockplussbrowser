@@ -34,8 +34,8 @@ public class Preferences extends PreferenceFragment
     this.addPreferencesFromResource(R.xml.preferences_main);
 
     final Preference aboutScreen = findPreference(getString(R.string.key_about));
-    final boolean isAbpFlavor = BuildConfig.FLAVOR_product.equals("abp");
-    if(aboutScreen != null && !isAbpFlavor) {
+    final boolean isAbpFlavor = BuildConfig.FLAVOR_product.equals(BuildConfig.FLAVOR_PRODUCT_ABP);
+    if (aboutScreen != null && !isAbpFlavor) {
       final PreferenceScreen prefScreen = getPreferenceScreen();
       prefScreen.removePreference(aboutScreen);
     }
