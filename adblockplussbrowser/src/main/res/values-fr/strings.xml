@@ -12,12 +12,12 @@
     <string name="available_subscriptions">Autres langues</string>
     <string name="initialization_title">Initialisation</string>
     <string name="initialization_message">Initialisation en cours&#8230;</string>
-    <string name="enable_acceptable_ads">Autoriser quelques publicités non intrusives</string>
+    <string name="enable_acceptable_ads">Autoriser certaines publicités non-intrusives</string>
     <string name="last_update">Mis à jour :</string>
     <string name="last_update_never">jamais</string>
     <string name="acceptable_ads_category">Publicités Acceptables</string>
     <string name="aa_dialog_title">Prenez le contrôle</string>
-    <string name="aa_dialog_message"><![CDATA[Les publicités gênantes sont toujours bloquées, tandis que les publicités non-intrusives sont affichées par défaut. Vous pouvez modifier ce paramètre à tout moment en appuyant sur l\'option <b>Autoriser quelques publicités non intrusives</b>.]]></string>
+    <string name="aa_dialog_message"><![CDATA[Les publicités agaçantes sont toujours bloquées, tandis que les publicités non-intrusives sont affichées par défaut. Vous pouvez modifier ce paramètre à tout moment en appuyant sur l\'option <b>Autoriser certaines publicités non-intrusives</b>.]]></string>
     <string name="aa_dialog_button">D\'accord</string>
     <string name="sbrowser_dialog_title">Vous devez avoir accès à Samsung Internet</string>
     <string name="sbrowser_dialog_message">Avant de pouvoir accéder à Adblock Plus, vous devez installer Samsung Internet 4.0 ou une version ultérieure.</string>
